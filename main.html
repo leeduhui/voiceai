@@ -614,7 +614,7 @@
         <select class="select-input" id="modelSelect" onchange="saveSettings()">
           <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
           <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
-          <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+          <option value="gemini-3.1-pro-previwe">Gemini 3.1 Pro Preview</option>
         </select>
       </div>
     </div>
@@ -671,7 +671,7 @@
 let recordings = JSON.parse(localStorage.getItem('voiceai_recordings') || '[]');
 let settings = JSON.parse(localStorage.getItem('voiceai_settings') || JSON.stringify({
   apiKey: 'AIzaSyAjivAaq_Vi3lk1W-u2J4LZ5zzOASUeWMs',
-  model: 'gemini-1.5-pro',
+  model: 'gemini-3.1-pro-preview',
   lang: 'ko',
   diarize: true,
   summary: true,
